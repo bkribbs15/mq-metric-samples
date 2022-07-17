@@ -28,13 +28,13 @@ vcsInfo:
 
 partOf: inventory
 
-connectsTo: QM
+connectsTo: SECUREQM
 
 configmap:
   QM: "SECUREQM"
   CONNECTION_NAME: "secureqm-ibm-mq-qm-mq.itzroks-6620022xah-xygpqn-4b4a324f027aea19c5cbc0c3275c4656-0000.us-south.containers.appdomain.cloud"
   CHANNEL: "MONITORING_CHL"
-  QUEUES: "!SYSTEM.*,!AMQ.*,*"
+  QUEUES: "!SYSTEM.*,!AMQ.*,EXAMPLE.QUEUE"
   SUBSCRIPTIONS: "!$SYS*"
   TOPICS: "!*"
   USE_PUBLICATIONS: false
